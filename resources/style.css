@@ -2,10 +2,11 @@
 
 
 body{
-	background-color: #282923FF;
+	background-color: #2B2A33;
 	font-family: 'Open Sans', sans-serif; 
 	font-size: 22px;
 	align-content: center;
+	color: white;
 	
 }
 
@@ -16,18 +17,30 @@ body{
  .h1{
  	text-align: center;
  }
- li{
- 	text-align: center;
- }
+
  .img{
  	margin: auto;
  	text-align: center;
 
  }
- img{
- 	width: auto;
+ #pavel{
+ 	height: auto;
+ 	width: 100%;
  	max-width: 360px;
  }
- .list{
- 	text-align: center;
+.footer  > li{
+	display: inline-block;
+	text-align: center;
+	margin-left: 12em;
+	color: black;
+}
+ .github{
+ 	display: block;
+ 	margin-left: 100%;
+ }
+
+ #logo{
+ 	height: auto;
+ 	width: 100%;
+ 	max-width: 70px;
  }
