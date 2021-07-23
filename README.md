@@ -1,1 +1,1 @@
-https://github.com/zinkoadh/rsschool-cv/tree/rsschool-cv-html/index.html
+https://github.com/zinkoadh/rsschool-cv/
