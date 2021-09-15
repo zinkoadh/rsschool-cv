@@ -172,7 +172,7 @@ footer{
 	font-size: 65%;
 }
 
-.footer-list-item>img{
+.footer-list-item>a>img{
 	width: 12%;
 }
 @media only screen and (max-width : 991px) {
