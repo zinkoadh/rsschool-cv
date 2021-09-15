@@ -167,7 +167,7 @@ footer{
 	width: 33%;
 	align-self: baseline;
 }
-.footer-list-item>p{
+.footer-list-item>a>p{
 	color:rgb(165, 158, 158);
 	font-size: 65%;
 }
