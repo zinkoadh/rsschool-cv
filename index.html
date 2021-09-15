@@ -3,59 +3,104 @@
 <head>
 	<title>CV</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="resources/style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="icon-font.css">
 
 </head>
 <body>
-
-
-	<header class="header">
-		<h1 class="h1">RSSchool CV</h1>
-	</header>
-
-	<main class="main">
-		<div class="img">
-		<img id="pavel" alt="Pavel"  width="360" src="resources/Pavel.JPG">
+<header>
+	<div class="title">CV for RSShcool</div>
+</header>
+<main>
+	<div class="wrapper">
+		<div class="left-block content">
+			<div class="photo-and-name-block">
+				<img src="resources/img/Pavel.JPG" alt="photo">
+				<div class="name-block">
+					<p class="name">Karabinovich Pavel</p>
+					<p class="name-subtitle">
+						front-end beginer developer
+					</p>
+				</div>
+			</div>
+			<div class="left-content">
+				<div class="mail"><i class="icon-mail2"></i>pavel.karabinovich@gmail.com</div>
+				<div class="phone"><i class="icon-phone"></i>+375447938075</div>
+				<div class="location"><i class="icon-location"></i>Minsk</div>
+				<div class="industry">
+					My learning steps
+					<ul class="industry-list">
+						<li class="industry-list-item">HTML</li>
+						<li class="industry-list-item">CSS</li>
+						<li class="industry-list-item">JS</li>
+					</ul>
+				</div>
+				<div class="lang">
+					Languages
+					<ul class="lang-list">
+						<li class="lang-list-item">English</li>
+						<li class="lang-list-item">Deutsch</li>
+						<li class="lang-list-item">Беларуская</li>
+						<li class="lang-list-item">Русский</li>
+					</ul>
+				</div>
+				<div class="social">
+					Social
+					<ul class="social-list">
+						<li ><a href="https://www.instagram.com/zinkovaya_mraz/" class="social-link">Instagram</a></li>
+						<li class="social-list-item"><a href="https://vk.com/zinkovaya_maz" class="social-link">VK</a></li>
+						<li class="social-list-item"><a href="https://t.me/zinkovaya_maz" class="social-link">Telegram</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
+		<div class="right-block content">
+			<div class="right-content">
+			<div class="about-me">
+					<h1>About me</h1>
+					<pre>My name is Pavel and I want<wbr> to become a<wbr>developer.
+I am constantly learning on<wbr>the way to<wbr>my goal.
+				</pre> 
+				</div>
+				<div class="education">
+					<h1>Education</h1>
+					<div class="Novoe-pole">
+						<p class="subtitle">NOVOPOLSKY AGRARIAN-ECONOMIC COLLEGE</p>
+						<p class="sub-text">Tecnical-Programmer 2019/2023
 
-		<ol>
-			<li>Pavel Karabinovich</li>
-			<li>Phone number: +375447938075 <br>
-   E-mail: pavel.karabinovich@gmail.com <br>
-   Telegram: @Zinkovaya_maz</li>
-			<li>I strive for a happy life, putting the maximum amount of effort. I am a student of NSAEC</li>
-			<li>Python begginer developer, study frontend development technologies</li>
-			<li><pre>
-				<code>
-				
- Python
-	def domain_name(url):
- 	    import re
-   	    spl = re.split(r'[^\w\s-]', url)
-  	    a = []
-   	    for i in spl:
-    	        if i not in ['http', 'https', 'www', '']:
-      	            a.append(i)
-   	    return(a[0])
+						</p>
+					</div>
+					<div class="rsschool">
+						<p class="subtitle">
+							RSShcool course
+						</p>
+						<p class="sub-text">
+							JavaScript/Front-end 2021/2022
+						</p>
+					</div>
+				</div>
+				<div class="my-skills">
+					<h1>My Project</h1>
+					<p>Drum-Kit</p>
+					<img src="resources/img/Drum-kit.jpg" alt="Drum-Kit">
+					<p><a href="https://rolling-scopes-school.github.io/zinkoadh-JSFEPRESCHOOL/drum-kit/" class="sub-text">Js-30 Drum-Kit</a></p>
+				</div>
 
-				</code>
-			</pre></li>
-			<li>No work experience</li>
-			<li>I graduated from high school, I am studying in college as a programmer-technician. I studied data analysis on the course from RSSchool "ML Intro 2021 Q1"</li>
-			<li>A2</li>
-		</ol>
-			</main>
-
-	<footer>
-
-			
-			<ul class="footer">
-				<li class="logo"><a href="https://rs.school/js/"><img id="logo" src="resources/logo-rsschool3.png" alt="logo"></a> </li>
-				<li class="year">2021</li>
-				<li class="github">@zinoadh</li>
-			</ul>
-		
-	</footer>
-
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+	<div class="footer-content">
+		<ul class="footer-list">
+			<li class="footer-list-item"><a href="https://rs.school/js/"><img src="resources/img/logo-rsschool3.png" alt="rsschool"></a>
+			</li>
+			<li class="footer-list-item"><p>2021.zinkovaya_maz</p>
+			</li>
+			<li class="footer-list-item"><a href="https://github.com/zinkoadh"><i class="icon-github"></i></a>
+			</li>
+		</ul>
+	</div>
+</footer>
 </body>
 </html>
