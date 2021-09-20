@@ -3,7 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	background-attachment: fixed;
+	
 }
 a{
 	text-decoration: none;
@@ -13,6 +13,7 @@ body{
 	background: linear-gradient(to bottom,#181821 20%, #141419 40%, #090916 60%, #656581 80%, #6B6B81 100%);
 	background-repeat: no-repeat;
 	font-family: Montserrat;
+	background-attachment: fixed;
 } 
 header{
 	width: 99%;
